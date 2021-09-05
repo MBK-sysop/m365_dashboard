@@ -1,7 +1,8 @@
 //***********************************
 //LANGUAGE SELECTION. Uncomment only one line
 //***********************************
-#define LANG_ENG //English
+//#define LANG_ENG //English
+#define LANG_PL //Polish
 //#define LANG_FRA //French
 //#define LANG_DE //German
 //#define LANG_RU //Russian, use together with the russian font in libraries folder
@@ -53,6 +54,59 @@
   const char l_On[] PROGMEM =  {" ON"};
   const char l_Off[] PROGMEM = {"OFF"};
  
+  const char l_km[] PROGMEM = {"km"};
+  const char l_kmh[] PROGMEM = {"km/h"};
+  const char l_mah[] PROGMEM = {"mAh"};
+  const char l_v[] PROGMEM = {"V"};
+  const char l_a[] PROGMEM = {"A"};
+  const char l_c[] PROGMEM = {"C"};
+  const char l_t[] PROGMEM = {"T"};
+#endif
+
+#ifdef LANG_PL
+  #define defaultFont System5x7mod
+
+  const char noBUS1[] PROGMEM = {"Wyswietlacz"};
+  const char noBUS2[] PROGMEM = {"    nie    "};
+  const char noBUS3[] PROGMEM = {"podlaczony "};
+  const char noBUS4[] PROGMEM = {"do panelu! "};
+
+  const char confScr1[] PROGMEM = {"Duzy wskaznik predk:"};     //Duzy predkosciomierz
+  const char confScr2[] PROGMEM = {"Duzy predk.: "};          //Duzy predkosciomierz
+  const char confScr2a[] PROGMEM = {"PREDKOSC"};
+  const char confScr2b[] PROGMEM = {"AKTUALNA"};
+  const char confScr3[] PROGMEM = {"Ostrzezenie bat."};
+  const char confScr4[] PROGMEM = {"AWARIA baterii!:"};    
+  const char confScr5[] PROGMEM = {"Info o baterii >"};
+  const char confScr6[] PROGMEM = {"Ustawienia M365 >"};
+  const char confScr7[] PROGMEM = {"Zapisz i wyjdz"};
+
+  const char infoScr1[] PROGMEM = {"Przebieg"};
+  const char infoScr2[] PROGMEM = {"Czas calkowity"};
+
+  const char battScr[] PROGMEM = {">>>  Hamulec by wyjsc  <<<"};
+
+  const char M365CfgScr1[] PROGMEM = {"Tempomat:        "};
+  const char M365CfgScr2[] PROGMEM = {"Zapisz tempomat"};
+  const char M365CfgScr3[] PROGMEM = {"Tylne swiatlo WL:"};
+  const char M365CfgScr4[] PROGMEM = {"Zapisz tylne swiatlo"};
+  const char M365CfgScr5[] PROGMEM = {"KRES:  "};
+  const char M365CfgScr6[] PROGMEM = {"Zapisz ust. KRES"};
+  const char M365CfgScr8[] PROGMEM = {"< WYJDZ"};
+  const char M365CfgScr7[] PROGMEM = {"Rozmiar kol:   "};
+
+  const char l_85inch[] PROGMEM = {" 8,5\""};
+  const char l_10inch[] PROGMEM = {"  10\""};
+
+  const char l_Weak[] PROGMEM =   {"  SLABy"};
+  const char l_Medium[] PROGMEM = {"SREDNI"};
+  const char l_Strong[] PROGMEM = {"  SILNY"};
+
+  const char l_Yes[] PROGMEM = {"TAK"};
+  const char l_No[] PROGMEM =  {"NIE"};
+  const char l_On[] PROGMEM =  {" WL"};
+  const char l_Off[] PROGMEM = {"WYL"};
+
   const char l_km[] PROGMEM = {"km"};
   const char l_kmh[] PROGMEM = {"km/h"};
   const char l_mah[] PROGMEM = {"mAh"};

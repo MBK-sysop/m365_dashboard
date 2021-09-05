@@ -1,8 +1,8 @@
 #include "WatchDog.h"
 
 // Select either SPI or I2C(Wire) Display Mode
-#define DISPLAY_SPI
-//#define DISPLAY_I2C
+//#define DISPLAY_SPI
+#define DISPLAY_I2C
 
 //#define US_Version
 
@@ -20,11 +20,11 @@
   #include "SSD1306AsciiWire.h"
 #endif
 #include "fonts/m365.h"
-#if Language == RU
-  #include "fonts/System5x7ru.h"
-#else
+//#if Language == RU
+//  #include "fonts/System5x7ru.h"
+//#else
   #include "fonts/System5x7mod.h"
-#endif
+//#endif
 #include "fonts/stdNumb.h"
 #include "fonts/bigNumb.h"
 
