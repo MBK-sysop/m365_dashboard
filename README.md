@@ -41,7 +41,7 @@ Potrzebny też będzie:
   - w defines.h ustaw typ wyświetlacza jaki używasz (domyślnie ustawiony jest I2C)
 - Uruchom Arduino IDE (testowane na 1.8.16)
   - dograj biblioteki z katalogu ./libraries
-  - ustaw typ płytki na "Arduino mini pro" i ATmega328P (3.3V 8MHz lub 5V 16MHz w zależności jakiej używasz)
+  - ustaw typ płytki na "Arduino mini pro" i ATmega328P (3.3V 8MHz lub 5V 16MHz w zależności jakiej płytki używasz)
   - właściwy port COM
   - programator "USBasp"
 - Podłącz Arduino do programatora zgodnie z poniższym schematem, skompiluj i wgraj szkic.
@@ -62,7 +62,8 @@ Podłącz źródło zasilania 5V do RAW, GND do GND - powinno pojawić się na w
 ## podłączenie
 - Delikatnie podważając odklej osłonę diód/wyświetlacza na kierownicy.
 - Odkręć 3 śruby płytki PCB, rozłącz okragłą wtyczkę główną, opcjonalnie 3 małe wtyczki od lampki i manetek
-- Przylutuj (**ostrożnie**) wyprowadzenia zgodnie ze schematem:
+- Przylutuj (**ostrożnie**) wyprowadzenia zgodnie z poniższym schematem
+- Podłącz okrągłą wtyczkę
 
 ![alt text](https://camo.githubusercontent.com/a912641249173768ae60670e843c62294d06da4f/68747470733a2f2f656c656374726f2e636c75622f646174612f666f72756d2f6d657373616765732f34323633312f696d616765732f31313636302d313238302e6a7067)
 
