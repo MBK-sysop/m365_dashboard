@@ -1,6 +1,6 @@
 # Xiaomi M365 Display [forked from augisbud/m365_dashboard]
 
-For a original description in English, <a href="# Original Description in English">click here</a>
+For a original description in English, <a href="#Original-Description-in-English">click here</a>
 
 **Ostrzeżenie:**
 
@@ -61,7 +61,7 @@ Podłącz źródło zasilania 5V do RAW, GND do GND - powinno pojawić się na w
 
 ## podłączenie
 - Delikatnie podważając odklej osłonę diód/wyświetlacza na kierownicy.
-- Odkręć 3 śruby płytki PCB, rozłącz okragłą wtyczkę główną, opcjonalnie 3 małe wtyczki od lamki i manetek
+- Odkręć 3 śruby płytki PCB, rozłącz okragłą wtyczkę główną, opcjonalnie 3 małe wtyczki od lampki i manetek
 - Przylutuj (**ostrożnie**) wyprowadzenia zgodnie ze schematem:
 
 ![alt text](https://camo.githubusercontent.com/a912641249173768ae60670e843c62294d06da4f/68747470733a2f2f656c656374726f2e636c75622f646174612f666f72756d2f6d657373616765732f34323633312f696d616765732f31313636302d313238302e6a7067)
