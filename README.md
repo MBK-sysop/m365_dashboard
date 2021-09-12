@@ -1,6 +1,6 @@
 # Xiaomi M365 Display [forked from augisbud/m365_dashboard]
 
-For a original description in English, <a href="#%20Original%20Description%20in%20English">click here</a>
+For a original description in English, <a href="# Original Description in English">click here</a>
 
 **Ostrzeżenie:**
 
